@@ -1,0 +1,23 @@
+# Ignore the mac-specific files in all folders
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+**/.vscode
+
+# No environment stuff 
+env/
+
+# Dont save any catached files
+**/__pycache__/
+
+#-----------------------------------------------
+# Cached files from Sublime Text, VS code, 
+#   and other random things should not be 
+#   pushed ...
+#-----------------------------------------------
+._*
+**/._*
+**/.ipynb_checkpoints
+.vscode
+
